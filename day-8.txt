@@ -1,0 +1,57 @@
+ class Movie{
+   constructor(movieName,studio,rating){
+         this.movieName=movieName;
+         this.studio= studio;
+         this.rating=rating;
+   }
+   getrating(){
+   return  this.rating
+   
+   }
+    
+ }
+
+ var m1 = new Movie("Casino Royale","Eon Productions","PG")
+    console.log(m1.getrating())
+
+
+class Circle{
+  constructor(double,color){
+           this.double=double;
+           this.color=color;
+  }
+  getradius(){
+    console.log(`${this.double}`);
+  }
+}
+var c2 = new Circle("4.9","red")
+c2.getradius();
+
+
+
+class Person{
+  constructor(name,roll,gender){
+        this.name=name;
+        this.roll=roll;
+        this.gender=gender;
+  }
+ getpersonDetails(){
+       console.log(`${this.name} ${this.gender} ${this.roll}`)
+ }
+}
+var p1 = new Person("santhos","21003","male")
+p1.getpersonDetails()
+
+
+class Person{
+  constructor(name,roll,gender){
+        this.name=name;
+        this.roll=roll;
+        this.gender=gender;
+  }
+ getpersonDetails(){
+       console.log(`${this.name} ${this.gender} ${this.roll}`)
+ }
+}
+var p1 = new Person("santhos","21003","male")
+p1.getpersonDetails()
